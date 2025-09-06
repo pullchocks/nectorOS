@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export: /home/lxejrqae/nectoros.com/
+    - git: https://github.com/pullchocks/nectorOS.git
