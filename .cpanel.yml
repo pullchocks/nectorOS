@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/lxejrqae/public_html/nectoros.com/
+    - export DEPLOYPATH=/home/lxejrqae/public_html/nectoros/
     - mkdir -p $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp nos.png $DEPLOYPATH
