@@ -4,8 +4,6 @@ deployment:
     - export DEPLOYPATH=/home/lxejrqae/public_html/nectoros.com/
     - mkdir -p $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp nos.png $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
     - chmod 644 $DEPLOYPATH/index.html
-    - chmod 644 $DEPLOYPATH/nos.png
     - chmod 644 $DEPLOYPATH/.htaccess
